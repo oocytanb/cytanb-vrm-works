@@ -22,9 +22,9 @@
 
     1. コマンドプロンプト (cmd) から、初回の `gclient` コマンドを実行し、アップデートを行います。
 
-    1. 作業ディレクトリで `gclient config` コマンドを実行し `.gclient` ファイルを作成します。(ブランチを指定する場合は、URL の末尾に `@BranchName` を指定できます。)
+    1. 作業ディレクトリで `gclient config` コマンドを実行し `.gclient` ファイルを作成します。
         ```
-        gclient config "https://github.com/oocytanb/cytanb-vrm-works.git"
+        gclient config --name=cytanb-vrm-works "https://github.com/oocytanb/cytanb-vrm-works.git@2018.2"
         ```
     
     1. リポジトリからソースコードを取得します。
