@@ -59,4 +59,6 @@ ehthumbs.db
 *.blend1.meta
 
 # external Assets
+/Assets/VRM*
+/Assets/cytanb-vrm-scripts*
 /Assets/oO-hands*
