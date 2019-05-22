@@ -2,6 +2,8 @@
 
 このプロジェクトは、[VRM](https://vrm.dev/) を、制作するための Unity プロジェクトです。
 
+オープンソースで公開することで、どなたでもアイディアの追加を行えるようになっています。
+
 [VCI](https://github.com/virtual-cast/VCI) を制作するためのプロジェクトは、[cytanb-tso-collab](https://github.com/oocytanb/cytanb-tso-collab) になります。
 
 ## Softwares / Assets
@@ -12,7 +14,7 @@
 
 ## Git
 
-- [Git Large File Storage (LFS)](https://git-lfs.github.com/) を導入しています。
+- [Git Large File Storage (LFS)](https://git-lfs.github.com/) を導入していますので、対応する Git クライアントが必要です。
 
 - 独立したリポジトリとして公開されているアセットを、まとめて扱うために、
  [depot_tools/gclient](https://dev.chromium.org/developers/how-tos/depottools) を採用しています。
