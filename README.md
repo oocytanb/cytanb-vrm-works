@@ -10,7 +10,7 @@
 
 - [Unity](https://unity3d.com/) 2018.2
 - [UniVRM](https://github.com/vrm-c/UniVRM)
-- [oO-hands](https://github.com/oocytanb/oO-hands)
+- [oO-vrm-pack](https://github.com/oocytanb/oO-vrm-pack)
 
 ## Git
 

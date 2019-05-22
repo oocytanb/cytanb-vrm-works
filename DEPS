@@ -11,9 +11,6 @@ deps = {
   'Assets/VRM': Var('cytanb_git') + '/uni-asset-vrm.git' + '@' +
     Var('target_branch'),
 
-  'Assets/cytanb-vrm-scripts': Var('cytanb_git') + '/cytanb-vrm-scripts.git' + '@' +
-    Var('target_branch'),
-
-  'Assets/oO-hands': Var('cytanb_git') + '/oO-hands.git' + '@' +
+  'Assets/oO-vrm-pack': Var('cytanb_git') + '/oO-vrm-pack.git' + '@' +
     Var('target_branch'),
 }
