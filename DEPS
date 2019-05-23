@@ -4,6 +4,7 @@ vars = {
   'github_base': 'https://github.com',
   'cytanb_git': 'https://github.com/oocytanb',
   'master_branch': 'master',
+  'develop_branch': 'develop',
   'target_branch': '2018.2',
 }
 
