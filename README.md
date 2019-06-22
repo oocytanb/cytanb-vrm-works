@@ -4,13 +4,21 @@
 
 オープンソースで公開することで、どなたでもアイディアの追加を行えるようになっています。
 
-[VCI](https://github.com/virtual-cast/VCI) を制作するためのプロジェクトは、[cytanb-tso-collab](https://github.com/oocytanb/cytanb-tso-collab) になります。
-
 ## Softwares / Assets
 
-- [Unity](https://unity3d.com/) 2018.2
+- [Unity](https://unity3d.com/) 2018.4
 - [UniVRM](https://github.com/vrm-c/UniVRM)
-- [oO-vrm-pack](https://github.com/oocytanb/oO-vrm-pack)
+
+## プロジェクトの構成
+
+独立したリポジトリとして公開されているアセットを扱いやすくするため、プロジェクトを以下のように構成しています。
+
+- 本リポジトリでは、Unity のプロジェクトファイルと、アセットの依存関係を記述した [DEPS](./DEPS) ファイルを扱います。
+    プロジェクトにアセットのリポジトリを追加する場合には、このファイルを変更します。
+
+- [oO-vrm-pack](https://github.com/oocytanb/oO-vrm-pack) : VRM のサンプル
+
+- [cytanb-tso-collab](https://github.com/oocytanb/cytanb-tso-collab) : [VCI](https://github.com/virtual-cast/VCI) を制作するためのプロジェクト
 
 ## Git
 
@@ -26,7 +34,7 @@
 
     1. 作業ディレクトリで `gclient config` コマンドを実行し `.gclient` ファイルを作成します。
         ```
-        gclient config --name=cytanb-vrm-works "https://github.com/oocytanb/cytanb-vrm-works.git@2018.2"
+        gclient config --name=cytanb-vrm-works "https://github.com/oocytanb/cytanb-vrm-works.git@2018.4"
         ```
     
     1. リポジトリからソースコードを取得します。
@@ -38,7 +46,7 @@
 
 ## License
 
-- このプロジェクト固有のものについては、[MIT License](./LICENSE) です。
+- 本プロジェクト固有のものについては、[MIT License](./LICENSE) です。
 
 - 個々のアセット/ライブラリーについては、それぞれのライセンスをご確認ください。
 
