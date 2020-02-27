@@ -22,8 +22,6 @@
 
 ## Git
 
-- [Git Large File Storage (LFS)](https://git-lfs.github.com/) を導入していますので、対応する Git クライアントが必要です。
-
 - 独立したリポジトリとして公開されているアセットを、まとめて扱うために、
  [depot_tools/gclient](https://dev.chromium.org/developers/how-tos/depottools) を採用しています。
 
@@ -40,6 +38,13 @@
     1. リポジトリからソースコードを取得します。
         ```
         gclient sync
+        ```
+
+    1. UniVRM のリポジトリで、サブモジュールが使われているため、初期化を行います。
+        ```
+        cd cytanb-vrm-works/Assets/VRM
+        git submodule init
+        git submodule update
         ```
 
 - Git に関する詳しい情報は、Web の資料に当たってください。
