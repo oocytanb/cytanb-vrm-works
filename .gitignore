@@ -72,3 +72,6 @@ ehthumbs.db
 
 # Ignore external assets
 /Assets/*
+
+# Visual Studio Code
+.vscode/
