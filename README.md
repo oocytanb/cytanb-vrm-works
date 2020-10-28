@@ -6,7 +6,7 @@
 
 ## Softwares / Assets
 
-- [Unity](https://unity3d.com/) 2018.4
+- [Unity](https://unity3d.com/) 2019.4
 - [UniVRM](https://github.com/vrm-c/UniVRM)
 
 ## プロジェクトの構成
@@ -32,7 +32,7 @@
 
     1. 作業ディレクトリで `gclient config` コマンドを実行し `.gclient` ファイルを作成します。
         ```
-        gclient config --name=cytanb-vrm-works "https://github.com/oocytanb/cytanb-vrm-works.git@2018.4"
+        gclient config --name=cytanb-vrm-works "https://github.com/oocytanb/cytanb-vrm-works.git@2019.4"
         ```
     
     1. リポジトリからソースコードを取得します。
