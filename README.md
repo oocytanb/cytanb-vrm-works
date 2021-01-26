@@ -61,7 +61,3 @@
     - [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
     - [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0)
     - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-## Community
-
-[Discord](https://discord.gg/FwFjw5n)
